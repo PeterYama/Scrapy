@@ -13,6 +13,7 @@ class PostSpider(scrapy.Spider):
             if url is not None:
                 url = response.urljoin(url)
                 yield response.follow(url, callback=self.fillCategory)
+                
         #After reading the first page, navigate to the next Page
         next_page = response.css('.pagination .next::attr(href)').get()
         if next_page is not None: 
