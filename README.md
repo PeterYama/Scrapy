@@ -1,7 +1,7 @@
 # Scrapy
-This is an example on how to Extract information about a web-site using Scrapy 
+This is an example on how to Extract information from the web using Scrapy 
 
-The web site has contain information about multiple web-pages.
+The web-site has contain information about multiple web-pages.
 
 Using this web-crawler it is possible to access each Post, grab in information and save it as a csv / json file.
 
